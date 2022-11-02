@@ -6,7 +6,7 @@ font-size: 18px;
 background-color:white;
 border-radius: 5px;
 border: 1px black solid;
-coursor:pointer;
+cursor: pointer;
 transition: color 250ms linear;
 transition: background-color 250ms linear;
 &:hover,
