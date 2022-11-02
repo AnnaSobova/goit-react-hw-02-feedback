@@ -11,7 +11,7 @@ transition: color 250ms linear;
 transition: background-color 250ms linear;
 &:hover,
 &:focus {
-  background-color: grey;
+  background-color: blu;
   color: white;
 }
 `;
