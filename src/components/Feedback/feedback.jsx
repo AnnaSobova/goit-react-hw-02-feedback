@@ -2,7 +2,7 @@ import {Component} from 'react';
 import Section from './Section/Section'
 import FeedbackOptions from '../Feedback/FeedbackOption/FeedbackOptions'
 import Notification from './Notification/Notification';
-import Statistics  from '../Feedback/Statistics/Statistics'
+import Statistics from '../Feedback/Statistics/Statistics';
 
 class Feedback extends Component{
 
@@ -24,6 +24,7 @@ class Feedback extends Component{
         return total+feedback;
     },0);
     };
+    
     countPositiveFeedbackPercentage = () => {
         return `${
           Math.round((this.state.good / this.countTotalFeedback()) * 100) || 0
@@ -59,4 +60,4 @@ class Feedback extends Component{
     }
 }
 
-export default Feedback
+export default Feedback;
