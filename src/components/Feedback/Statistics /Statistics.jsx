@@ -10,6 +10,8 @@ const Statistics=({good,neutral,bad,totalFeedbacks,
         <p>Positive feedback: {positiveFeedback}</p>
     </div>);
 
+export {Statistics}
+
 Statistics.propTypes = {
     good: PropTypes.number.isRequired,
     neutral: PropTypes.number.isRequired,
@@ -18,4 +20,4 @@ Statistics.propTypes = {
     positiveFeedback: PropTypes.number.isRequired,
   };
   
-  export default Statistics;
+  
