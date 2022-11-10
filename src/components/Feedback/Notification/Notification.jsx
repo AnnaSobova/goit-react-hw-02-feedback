@@ -4,7 +4,7 @@ import Warning from './Notification.styled';
 
 const Notification=({text})=> <Warning>{text}</Warning>;
 
-export {Notification}
+export default Notification
 
 Notification.prototype={
     text:PropTypes.string,

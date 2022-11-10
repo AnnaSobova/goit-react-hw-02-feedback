@@ -1,7 +1,7 @@
 import {Component} from 'react';
 import Section from './Section/Section'
 import FeedbackOptions from '../Feedback/FeedbackOption/FeedbackOptions'
-import {Notification} from './Notification/Notification';
+import Notification from './Notification/Notification';
 import Statistics from '../Feedback/Statistics/Statistics';
 
 class Feedback extends Component{
