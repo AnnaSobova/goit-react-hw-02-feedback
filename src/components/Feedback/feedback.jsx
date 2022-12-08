@@ -1,7 +1,7 @@
 import {Component} from 'react';
 import Section from './Section/Section'
 import FeedbackOptions from '../Feedback/FeedbackOption/FeedbackOptions'
-import Notification from './Notification/Notification';
+import Notification from '../Feedback/Notification/Notification';
 import Statistics from '../Feedback/Statistics/Statistics';
 
 class Feedback extends Component{
@@ -51,7 +51,7 @@ class Feedback extends Component{
                         positiveFeedback={this.countPositiveFeedbackPercentage()}
                         />
                     ):(
-                        <Notification text="There is no feedback" />
+                        <Notification text="There is no feedback"/>
                     )}
             
                 </Section>
